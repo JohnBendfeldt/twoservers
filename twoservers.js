@@ -10,5 +10,5 @@ function happyPort (req, res) {
 
 function madPort (req, res) {
   res.write('You are the worst!\n');
-  res.end("Bah Humbum! Path Hit: " + req.url);
+  res.end("Bah Humbug! Path Hit: " + req.url);
 }
